@@ -22,3 +22,17 @@ document.addEventListener('mousemove', function(e){
     mouse.x = e.clientX || e.pageX; 
     mouse.y = e.clientY || e.pageY 
 }, false);
+
+window.onclick = function () {
+    
+    var e = document.getElementById('nav-container');
+    if (e.style.display == 'block') {
+        
+        e.style.display = 'none';
+        
+    } else {
+        
+        
+    }
+    
+}

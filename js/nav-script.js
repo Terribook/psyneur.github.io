@@ -8,9 +8,17 @@ window.oncontextmenu = function () {
 
 function navMenu(id) {
     
-    toggle_visibility(id);
-    
     var e = document.getElementById(id);
+    
+    if(e.style.display == 'none') {
+        
+        toggle_visibility(id);
+        
+    } else {
+        
+        
+    }
+    
     e.style.left = mouse.x;
     e.style.top = mouse.y;
     
